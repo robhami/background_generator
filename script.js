@@ -11,7 +11,7 @@ var button = document.querySelector("button");
 function setGradient () {
 
 	body.style.background = 
-	"linear-gradient(to right, " 
+	"linear-gradient(to left, " 
 	+ color1.value 
 	+ ", " 
 	+ color2.value 
@@ -44,7 +44,7 @@ function setRandomGradient () {
 	color1.value = randomColor();
 	color2.value = randomColor();
 	body.style.background = 
-	"linear-gradient(to right, " 
+	"linear-gradient(to left, " 
 	+ color1.value 
 	+ ", " 
 	+ color2.value 
